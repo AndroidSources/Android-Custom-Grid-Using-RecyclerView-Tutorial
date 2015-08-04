@@ -1,0 +1,40 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <!--image for the world wonder-->
+        <ImageView
+            android:id="@+id/wonder_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="2dp"
+            android:contentDescription="@string/action_settings"
+            android:layout_centerInParent="true"
+            android:alpha="0.9"
+            android:src="@drawable/tajmahal"
+            android:scaleType="fitXY" />
+
+        <!--name of the world wonder-->
+        <TextView
+            android:id="@+id/wonder_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:textSize="20sp"
+            android:text="Taj Mahal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
